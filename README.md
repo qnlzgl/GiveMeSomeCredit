@@ -11,6 +11,7 @@ Email: guanlun.zhao@u.nus.edu
 - Other metrics we can use to evaluate imbalanced dataset includes precision, recall and f1 score.
 
 **What insight(s) do you have from your model? What is your preliminary analysis of the given dataset?**
+
 Some of the insights & Preliminary analysis is stated below
 1. Null value analysis
 -> 19.8% of MonthlyIncome column and 2.6% of NumberOfDependents column are NULL. I am using mode/mean imputation to impute missing data.
