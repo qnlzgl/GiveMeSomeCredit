@@ -3,7 +3,7 @@ Email: guanlun.zhao@u.nus.edu
 
 **Tell us how you validate your model, which, and why you chose such evaluation technique(s).**
 
-- I validated my model with k-Fold Cross-Validation to minimize sampling bias. The data was into k folds, then trains the data on k-1 folds and test on the one fold that was left out. I used k=5 in this case. 
+- I validated my model with k-Fold Cross-Validation to minimize sampling bias. The data was split into k folds, then trains the data on k-1 folds and test on the one fold that was left out. I used k=5 in this case. 
 
 **What is AUC? Why do you think AUC was used as the evaluation metric for such a problem? What are other metrics that you think would also be suitable for this competition?**
 - AUC stands for "Area under the ROC Curve" and it measures the entire two-dimensional area underneath the entire ROC curve (think integral calculus) from (0,0) to (1,1). AUC can be used as a summary of the model skill and can be used to compare two models. The ROC curves of different models can be compared directly in general or for different thresholds. The greater the AUC the better the classifier/model.
